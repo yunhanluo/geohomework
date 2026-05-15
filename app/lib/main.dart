@@ -89,7 +89,7 @@ class GridAppPageState extends State<GridAppPage> {
                 fontFamily: 'Inter',
               ),
             ),
-            //Text(selected.map((e) => e.write()).join(", ")),
+            
             Container(
               height: 500,
               width: 500,
@@ -255,9 +255,6 @@ class GridBuilderState extends State<GridBuilder> {
                 ),
               )
             : SizedBox.shrink(),
-        // Text(widget.selectedList.map((e) => e.write()).join(", ")),
-
-        // Text("Length is ${widget.selectedList.length}"),
         widget.quadrilateralType != null
             ? Text(
                 "This is ${widget.quadrilateralType}",
